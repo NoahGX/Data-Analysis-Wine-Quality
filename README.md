@@ -1,4 +1,4 @@
-# Data Analysis of a Wine Quality Dataset
+# Wine Quality Dataset: Data Analysis
 
 ## Overview
 The purpose of this Jupyter Notebook io to analyze attributes of wine that influence its quality. The analysis involves loading wine quality data, computing statistical measures, visualizing data relationships, and identifying key attributes that correlate with wine quality.
@@ -10,13 +10,12 @@ The purpose of this Jupyter Notebook io to analyze attributes of wine that influ
 - **Detailed Analysis**: Identify the most significant attributes related to wine quality and the highest inter-attribute correlations.
 
 ## Usage
-- Ensure all prerequisites are met.
-- Run each cell in order from top to bottom.
+Ensure all prerequisites are met and run each cell sequentially.
 
 ## Prerequisites
 - Python 3.x
-- Jupyter Notebook or JupyterLab environment
-- Required Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `requests`, `io`, `zipfile`
+- Jupyter Notebook or JupyterLab
+- Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `requests`, `io`, `zipfile`
 
 ## Input
 The notebook automatically downloads the dataset from the UCI Machine Learning Repository. The dataset used is the "Wine Quality" dataset, specifically the file `winequality-red.csv`.
@@ -28,6 +27,6 @@ The notebook automatically downloads the dataset from the UCI Machine Learning R
 - Printed statements identifying key attributes correlated with wine quality and among themselves.
 
 ## Notes
-- Consider modifying the analysis for more rigorous scientific or production usage.
+- Consider modifying the analysis for more complex production usage.
 - If the dataset's structure or the URL changes, the notebook might require updates.
 - Source URL and parameters can be modified or tweaked to explore different aspects of the data.
